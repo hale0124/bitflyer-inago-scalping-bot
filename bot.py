@@ -255,8 +255,7 @@ def getOrderAmountByPercentage(percentage, cur_price):
     else:
         amount = balance * (percentage / 100) * 14.95 / cur_price
 
-    # return round(amount, 8)
-    return 0.003
+    return round(amount, 8)
 
 def showTradeResult():
     global sum_profit
